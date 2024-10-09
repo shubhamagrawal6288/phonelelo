@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phone Reselling Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="logo"> 
+    Phone lelo.com
+    <br>
+    <span id="element"></span>
+  </div>
+  <header>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Buy</a></li>
+          <li><a href="#">SELL</a></li>
+          <li><a href="#">Contact</a></li>
+          <li>
+            <div class="profile">
+              <button id="profile-btn"><img src="profile.png" height="20px" width="20px"><span><?php echo $username ?></span></button>
+              <div class="profile-dropdown">
+                <a href="#">My Profile</a>
+                <a href="#">Logout</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="sell">
+    <div class="sell-a">
+      <h1>Details to Sell your PHONE</h1>
+      <form method="POST" action="" enctype="multipart/form-data">
+        <div class="s">
+          <label for="brand">Brand Name:</label>
+          <input type="text" id="brand" name="brand">
+        </div>
+        <div class="s">
+          <label for="model">Model:</label>
+          <input type="text" id="model" name="model">
+        </div>
+        <div class="s">
+          <label for="Variant">Choose a phone variant:</label>
+          <select id="Variant" name="phoneVariant">
+            <option value="32GB">32GB</option>
+            <option value="64GB">64GB</option>
+            <option value="128GB">128GB</option>
+            <option value="256GB">256GB</option>
+            <option value="512GB">512GB</option>
+            <option value="1TB">1TB</option>
+          </select>
+        </div>
+        <div class="s">
+          <label for="use">Years Used:</label>
+          <input type="number" id="use" name="use">
+        </div>
+        <div class="s">
+          <label for="condition">Condition:</label>
+          <select id="condition" name="condition">
+            <option value="Poor">Poor</option>
+            <option value="Average">Average</option>
+            <option value="Good">Good</option>
+            <option value="New">New</option>
+          </select>
+        </div>
+        <div class="s">
+          <label for="imageUpload">Upload an image:</label>
+          <input type="file" id="imageUpload" name="imageUpload" accept="image/*">
+        </div>
+        <div class="se">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Phone Reselling Website. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>Sell A Phone </i>', 'Buy A Phone '],
+      typeSpeed: 80,
+      cursorClass: 'typed-cursor'
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,483 @@
+   body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+
+   }
+
+   .logo {
+     height: 5rem;
+     background-color: rgb(1, 1, 42);
+     color: yellow;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 2rem;
+     text-align: center;
+     margin-bottom: 0px;
+     bottom: 0%;
+
+
+   }
+
+   .container {
+     width: 1200px;
+     margin: 0 auto;
+     padding: 0 20px;
+
+   }
+
+   .container nav ul li button {
+     margin-left: 590px;
+     border-radius: 15px;
+     background-color: #eff0f3;
+     color: rgb(0, 0, 0);
+     padding: 7px;
+     padding-left: 18px;
+     padding-right: 18px;
+     font-size: 1em;
+
+
+   }
+
+   .container nav ul li button:hover {
+     background-color: #11eedf;
+     color: white;
+     font-size: 1em;
+
+
+
+   }
+
+   header {
+     background-color: #333;
+     color: #fff;
+     padding: 2px 0;
+
+   }
+
+   header nav ul {
+     list-style: none;
+     padding: 0;
+     margin: 7px;
+
+   }
+
+   header nav ul li {
+     display: inline;
+     margin-right: 50px;
+     font-size: large
+   }
+
+   header nav ul li a {
+     color: #fff;
+     text-decoration: none;
+
+   }
+
+   header nav ul li a:hover {
+     font-size: 110%;
+     color: rgb(8, 224, 243);
+     transition: font-size 0.3s;
+
+   }
+
+   .hero {
+     background-image: url('hero-background.jpg');
+     background-size: cover;
+     color: #d5d2d2;
+     text-align: center;
+     padding: 100px 0;
+   }
+
+   .hero h2 {
+     font-size: 36px;
+     margin-bottom: 20px;
+   }
+
+   .hero p {
+     font-size: 18px;
+     margin-bottom: 30px;
+   }
+
+   .hero h2:hover {
+     color: #333;
+     transition: 0.5s;
+   }
+
+   .hero p:hover {
+     color: #333;
+     transition: 0.5s;
+   }
+
+   .btn {
+     display: inline-block;
+     background-color: #f44336;
+     color: #fff;
+     text-decoration: none;
+     padding: 10px 20px;
+     border-radius: 5px;
+     transition: background-color 0.3s;
+   }
+
+   .btn:hover {
+     background-color: #d32f2f;
+   }
+
+   .featured {
+     background-color: #f9f9f9;
+     padding: 50px 0;
+   }
+
+   footer {
+     background-color: #333;
+     color: #fff;
+     text-align: center;
+     padding: 20px 0;
+   }
+
+   #element {
+     color: rgb(236, 178, 236);
+     font-size: l;
+     margin-top: 0px;
+   }
+
+   .typed-cursor {
+     font-size: 0.5em;
+   }
+
+   /* Responsive Styles */
+   @media screen and (max-width: 768px) {
+     header nav ul li {
+       display: block;
+       margin-bottom: 10px;
+     }
+   }
+
+
+
+   /*login page css*/
+
+   .login {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     /* Full viewport height */
+     width: 100vw;
+     /* Full viewport width */
+     flex-direction: column;
+
+
+   }
+
+   .login-head {
+     background-color: aliceblue;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+     height: 80%;
+     width: 40%;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+   }
+
+   .login h1 {
+     justify-content: center;
+     align-items: center;
+     font-size: 4rem;
+     margin: 50px;
+     margin-top: -100px;
+
+
+   }
+
+   .login-head form {
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+
+   }
+
+   .un {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     color: #575656;
+     font-size: 10px;
+     margin-bottom: 2em;
+   }
+
+   .un input {
+     width: 100%;
+     padding: 0.5em;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+     width: 300px
+   }
+
+   .su input {
+     display: flex;
+     justify-content: center;
+     font-size: larger;
+     border-radius: 5px;
+     padding: 8px;
+     height: 40px;
+     text-align: start;
+     border: 0;
+     width: 300px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     margin-top: 1em;
+
+
+   }
+
+   .su input:hover {
+     background-color: #333;
+     color: #fff;
+     transition: 1s ease-out;
+   }
+
+   .link a {
+     text-decoration: none;
+     color: black;
+     transition: 0.3s ease;
+
+   }
+
+   .link a:hover {
+     color: aqua;
+   }
+
+
+
+   /*signup*/
+   .signup {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 120vh;
+     /* Full viewport height */
+     width: 100vw;
+     /* Full viewport width */
+     flex-direction: column;
+
+
+   }
+
+   .signup-head {
+     background-color: aliceblue;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+     height: 90%;
+     width: 40%;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+   }
+
+   .signup h1 {
+     justify-content: center;
+     align-items: center;
+     font-size: 4rem;
+     margin: 50px;
+     margin-top: 0px;
+
+
+   }
+
+   .signup-head form {
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+
+   }
+
+   .un {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     color: #575656;
+     font-size: 10px;
+     margin-bottom: 2em;
+   }
+
+   .un input {
+     width: 100%;
+     padding: 0.5em;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+     width: 300px
+   }
+
+   .su input {
+     display: flex;
+     justify-content: center;
+     font-size: larger;
+     border-radius: 5px;
+     padding: 8px;
+     height: 40px;
+     text-align: start;
+     border: 0;
+     width: 300px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     margin-top: 1em;
+
+
+   }
+
+   .su input:hover {
+     background-color: #333;
+     color: #fff;
+     transition: 1s ease-out;
+   }
+
+   /*profile*/
+   .profile {
+     display: inline;
+   }
+
+   #profile-btn {
+     position: absolute;
+     color: rgb(246, 246, 246);
+     border: 1px solid;
+     cursor: pointer;
+     background-color: #55a8b5;
+     max-width: 100px;
+     height: 30px;
+     text-align: center;
+     word-wrap: break-word;
+     justify-content: center;
+     font-size: 14px;
+     padding: 5px;
+     padding-left: 3px;
+     padding-right: 13px;
+     margin-top: -3px;
+     overflow: hidden;
+     margin-left: 50em;
+
+   }
+
+   /* Style the profile dropdown content (hidden by default) */
+   .profile-dropdown {
+     display: none;
+     position: absolute;
+     right: 11em;
+     top: 6.4em;
+     background-color: #f9f9f9;
+     min-width: 160px;
+
+     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+     z-index: 1;
+   }
+
+   /* Style the links inside the dropdown */
+   .profile-dropdown a {
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+     font-size: 1rem;
+   }
+
+   /* Change color of dropdown links on hover */
+   .profile-dropdown a:hover {
+     background-color: #f1f1f1;
+   }
+
+   /* Show the dropdown menu on hover */
+   .profile:hover .profile-dropdown {
+     display: block;
+   }
+
+
+
+
+   /* selllllll pageeeeeee */
+
+   .sell {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 130vh;
+     /* Full viewport height */
+     width: 100vw;
+     /* Full viewport width */
+     flex-direction: column;
+   }
+
+   .sell-a {
+     background-color: aliceblue;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+     height: 85%;
+     width: 40%;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   }
+
+   .sell-a h1 {
+     font-size: 2rem;
+     margin: 50px;
+     text-align: center;
+     justify-content: space-around;
+   }
+
+   .sell-a form {
+     display: flex;
+     flex-direction: column;
+     position: relative;
+   }
+
+   .s {
+     display: flex;
+     align-items: center;
+     color: #575656;
+     font-size: 20px;
+     margin-bottom: 2em;
+   }
+
+   .s label {
+     width: 200px;
+     /* Fixed width for labels */
+     text-align: left;
+     /* Left-align the text */
+   }
+
+   .s input,
+   .s select {
+     flex: 1;
+     /* Fill remaining space */
+     padding: 0.5em;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+   }
+
+   .se input {
+     font-size: larger;
+     border-radius: 5px;
+     padding: 8px;
+     height: 40px;
+     text-align: center;
+     justify-content: center;
+     border: 0;
+     width: 300px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     margin-top: 1em;
+     margin-left: 4em;
+   }
+
+   .se input:hover {
+     background-color: #333;
+     color: #fff;
+     transition: 1s ease-out;
+   }
